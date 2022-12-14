@@ -1,4 +1,5 @@
 import React from "react";
+import SideBar from "./SideBar";
 
 type Props = {
   children: JSX.Element;
@@ -6,8 +7,8 @@ type Props = {
 
 const Layout = ({ children }: Props) => {
   return (
-    <div>
-      <div className="hidden lg:flex"></div>
+    <div className="flex flex-row h-screen">
+      <SideBar></SideBar>
       <div>{children}</div>
     </div>
   );
