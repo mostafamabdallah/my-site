@@ -9,7 +9,9 @@ const Layout = ({ children }: Props) => {
   return (
     <div className="flex flex-row h-screen">
       <SideBar></SideBar>
-      <div>{children}</div>
+      <div className="bg-pageBackground rounded-tl-[80px] lg:w-9/12 xl:w-10/12 p-16">
+        {children}
+      </div>
     </div>
   );
 };
