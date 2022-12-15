@@ -36,7 +36,7 @@ const ProjectCard = () => {
                 initial={{ y: 30, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 1 }}
-                className="font-bold text-lg"
+                className="font-bold text-base"
               >
                 Qpay
               </motion.h3>
@@ -44,7 +44,7 @@ const ProjectCard = () => {
                 initial={{ y: 30, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 1.2 }}
-                className="text-forth font-bold cursor-pointer hover:text-primary mt-1"
+                className="text-forth text-sm font-bold cursor-pointer hover:text-primary mt-1"
               >
                 E-Commarce
               </motion.span>
@@ -53,7 +53,7 @@ const ProjectCard = () => {
               initial={{ y: 30, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 1.4 }}
-              className="bg-primary hover:bg-blue-700 text-white font-bold py-3  px-5 rounded-lg"
+              className="bg-primary hover:bg-forth text-white font-bold py-2  px-4 rounded-lg"
             >
               View
             </motion.button>
