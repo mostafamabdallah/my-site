@@ -5,4 +5,5 @@
 
 html {
   @apply bg-background;
+  font-family: Poppins ;
 }
