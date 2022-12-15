@@ -8,19 +8,19 @@ const ProjectCard = () => {
     <motion.div
       initial={{ scaleY: 0 }}
       animate={{ scaleY: 1 }}
-      transition={{ type: "spring", bounce: 0.4, damping: 15, duration: 1 }}
+      transition={{ type: "spring", bounce: 0.4, damping: 12, duration: 1 }}
       className="flex flex-col md:w-10/12 lg:w-full shadow-lg"
     >
       <motion.div>
         <div className="bg-background flex flex-row justify-center aspect-square items-center rounded-t-lg relative">
           <motion.div
-            whileHover={{}}
-            initial={{ scaleX: 0, opacity: 0 }}
-            animate={{ scaleX: 1, opacity: 1 }}
+            initial={{ scaleX: 0, opacity: 0, rotateZ: "10deg" }}
+            animate={{ scaleX: 1, opacity: 1, rotateZ: "0deg" }}
             transition={{
               type: "spring",
-              bounce: 0.4,
-              duration: 0.8,
+              damping: 20,
+              bounce: 0.2,
+              duration: 0.3,
               delay: 0.5,
             }}
             className="w-10/12"
