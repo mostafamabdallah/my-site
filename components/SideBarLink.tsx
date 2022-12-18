@@ -7,10 +7,10 @@ import { SiteLink } from "../data/links";
 const SideBarLink = ({ name, icon, url }: SiteLink) => {
   return (
     <Link
-      className="flex flex-row text-secondary items-center gap-3 text-xl font-semibold hover:text-white"
+      className="flex flex-row text-secondary items-center gap-3  font-semibold hover:text-white"
       href={url}
     >
-      <FontAwesomeIcon className="text-2xl flex w-4/12 justify-start items-start" icon={icon}></FontAwesomeIcon>
+      <FontAwesomeIcon className="text-xl flex w-4/12 justify-start items-start" icon={icon}></FontAwesomeIcon>
       <span>{name}</span>
     </Link>
   );
