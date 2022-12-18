@@ -1,4 +1,5 @@
 import React from "react";
+import RightSideBar from "./RightSideBar";
 import SideBar from "./SideBar";
 
 type Props = {
@@ -12,6 +13,7 @@ const Layout = ({ children }: Props) => {
       <div className="bg-pageBackground rounded-tl-[80px] lg:w-9/12 xl:w-10/12 p-6 md:p-16">
         {children}
       </div>
+      <RightSideBar></RightSideBar>
     </div>
   );
 };
